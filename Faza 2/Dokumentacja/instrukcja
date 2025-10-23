@@ -1,0 +1,19 @@
+Wymagane biblioteki:
+pygame, random, pillow, librosa – w tej chwili tylko 2 pierwsze są konieczne
+
+Instrukcja uruchomienia prototypu:
+Prototyp można uruchomić w Visual Studio Code. Należy w jednym katalogu umieścić wszystkie pliki z obrazkami:
+znjadujące się w katalogu karty oraz hit.jpg, stand.jpg, start.jpg, zasady.jpg, zasady_gry.jpg
+oraz kod pythona znajdujący się w pliku blackjack.py.
+Następnie można uruchomić prototyp przez uruchomienie programu blackjack.py.
+
+Instrukcja użytkowania:
+Po uruchomieniu prototypu pojawią się dwa przyciski: play (rozpoczęcie gry) oraz Z (zasady gry).
+Po rozpoczęciu gry pojawią się kolejne dwa przyciski: H (hit), S (stand).
+Przycisk hit umożliwi graczowi dobieranie kart, a przycisk stand zakończy turę gracza i rozpocznie turę komputera.
+
+Obecnie działają przyciski startowe gry, z zasadami oraz hit i stand:
+1. Po kliknięciu play włącza się gra.
+2. Po kliknięciu zasad wyświetla się plik z zasadami – ale nie da się go wyłączyć bez wyłączania gry.
+3. Po kliknięciu hit dobiera się losowa karta ze stosu i liczy się suma wartości kart + wiadomo, czy gracz wygrał, czy przegrał.
+4. Po kliknięciu stand w konsoli pojawia się komunikat o tym, że będzie tura komputera – to jeszcze nie zostało zaimplementowane.
